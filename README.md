@@ -1,6 +1,9 @@
 # Introduction
 A Weather Website that gives the current weather information for a location.
 
+![](https://github.com/Ojas-Chandgadkar/Weather_website/blob/main/demo.gif)
+
+
 
 # Features:
 1. When clicked on temperature, it changes format (cel <-> fah)

@@ -1,0 +1,100 @@
+:root{
+    --clr-bg : black;
+    --clr-primary1 :rgb(35, 31, 49);
+    --clr-primary2: rgb(131, 128, 225);
+    --clr-txt-read : white;
+    --clr-txt-highlght : rgb(143, 47, 47);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Main_Container{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--clr-bg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.ImageContainer{
+    width: 90vw;
+    height: 95vh;
+    max-width: 1440px;
+    background-image: url('https://i.picsum.photos/id/1023/3955/2094.jpg?hmac=AW_7mARdoPWuI7sr6SG8t-2fScyyewuNscwMWtQRawU');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    border-radius: 30px;
+
+}
+/* img{
+    height: 20%; 
+    width: 100%;
+    border-radius: 30px;
+    object-fit: cover;
+} */
+.Card{
+    width: 90%;
+    height: 40%;
+    max-width: 500px;
+    max-height: 350px;
+    margin-bottom: 1.5rem;
+    border: 2px solid var(--clr-primary2);
+    border-radius: 15px;
+    color: var(--clr-txt-read);
+    font-family: 'Poppins', sans-serif;
+}
+.upperCard{
+    width: 100%;
+    height: 30%;
+    background-color: var(--clr-bg);
+    justify-content: center;
+    border-radius: 15px 15px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+}
+.upperCard input{
+    width: 70%;
+    height: 60%;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 7.5px;
+    color: var(--clr-txt-read);
+    background-color: var(--clr-primary1);
+    text-decoration: none;
+    border-style: none;
+}
+.upperCard i{
+    color: var(--clr-txt-read);
+    cursor: pointer;
+}
+.lowerCard{
+    width: 100%;
+    height: 70%;
+    border-radius: 0px 0px 15px 15px;
+    background-color: var(--clr-bg);
+    font-size: 2rem;
+    display: flex;
+    padding-left: 1em;
+    flex-direction: column;
+    align-items: right;
+    justify-content: space-evenly;
+}
+.lowerCard #cityName{
+    color: var(--clr-primary2);
+}
+.lowerCard #temp{
+    cursor: pointer;
+}
+.lowerCard .bottomInfo{
+    font-size: 1.1rem;
+    padding: 1rem 0;
+}
